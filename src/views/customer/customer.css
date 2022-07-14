@@ -1,0 +1,22 @@
+.customer-section{
+    margin: 140px 0;
+}
+.customer-heading {
+  text-align: center;
+  padding-bottom: 77px;
+}
+.customer-heading p {
+  font-family: "Overlock";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+  margin: 0;
+}
+.customer-heading img {
+  width: 232px;
+}
+.brands{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

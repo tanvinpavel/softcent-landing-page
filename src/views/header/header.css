@@ -1,0 +1,33 @@
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+.logo img{
+    width: 132px;
+}
+.navbar ul{
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 0 20px;
+}
+.navbar ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: rgba(4, 4, 21, 0.8);
+    font-family: 'Nunito';
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+}
+.btn{
+    padding: 12px 15px;
+    border-radius: 8px;
+    background: #3088FF;
+    color: white !important;
+}
