@@ -1,0 +1,61 @@
+#aboutus {
+  height: 600.41px;
+}
+
+#container {
+  margin: 0 137px;
+  padding-top: 20px;
+}
+#workflowbanner {
+  text-align: center;
+}
+#workflowDiv {
+  display: flex;
+  justify-content: space-evenly;
+}
+.aboutDiv1 {
+  width: 383.44px;
+  height: 383.44px;
+  margin: 64px 0px;
+}
+
+.aboutDiv1 p {
+  font-family: "Nunito";
+  font-size: 15px;
+  line-height: 34px;
+  /* or 170% */
+
+  color: rgba(4, 4, 21, 0.6);
+}
+
+.aboutDiv2 {
+  width: 383.44px;
+  height: 383.44px;
+  background-image: url("../../../public/img/home-shape.png");
+  background-position: top;
+}
+
+.aboutDiv2 img {
+  width: 323px;
+  height: 316px;
+  border-radius: 237px;
+  margin: 38px 27px;
+}
+#sofcentceo {
+  display: flex;
+  margin: 39px 0px;
+}
+
+#sofcentceo img {
+  width: 55px;
+  height: 58px;
+  border-radius: 55px;
+}
+
+#coText {
+  margin: -21px 10px;
+}
+
+.quote {
+  font-size: 35px;
+}

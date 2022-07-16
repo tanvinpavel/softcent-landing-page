@@ -1,0 +1,136 @@
+.service-section {
+  width: auto;
+  height: 555px;
+}
+.services-heading{
+  margin-bottom: 50px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 50px;
+}
+
+.text {
+  width: 274px;
+  height: 92px;
+  left: 204.07px;
+  font-family: "Overlock";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 46px;
+
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+
+/* #text p{
+        color:#2D5BFF;
+    } */
+
+.btn {
+  width: 197.86px;
+  height: 60.52px;
+  left: 1025.23px;
+  background: #ffffff;
+  border-radius: 7px;
+}
+
+.btn p {
+  color: #2d5bff;
+  font-family: Nunito;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.address {
+  display: flex;
+  /* padding: 50px; */
+}
+
+.firstdiv {
+  height: 274.53px;
+  left: 589.99px;
+  top: 9000px;
+
+  margin-top: 25px;
+  margin-right: 300px;
+  text-align: center;
+  text-align: center;
+}
+
+.firstdiv p {
+  height: 22px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: rgba(4, 4, 21, 0.6);
+  text-align: center;
+}
+
+.secoundDiv {
+  margin-top: 25px;
+  width: 190px;
+  height: 206.24px;
+  left: 791.29px;
+  top: 9000px;
+  text-align: center;
+}
+
+.secoundDiv p {
+  height: 22px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: rgba(4, 4, 21, 0.6);
+}
+
+.thirdDiv {
+  margin-top: 25px;
+  margin-left: 200px;
+  height: 206.24px;
+  left: 1089.58px;
+  top: 9000px;
+  text-align: center;
+}
+
+.thirdDiv p {
+  height: 22px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: rgba(4, 4, 21, 0.6);
+}
+
+.icon {
+  font-size: 26px;
+}
+
+.mainbrand {
+  display: flex;
+}
+.brndimg img {
+  margin-top: 5px;
+  width: 50px;
+  height: 50px;
+}
+
+.underlinetext {
+  font-family: "Overlock";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 0px;
+}

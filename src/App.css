@@ -1,3 +1,13 @@
 .container{
   margin: 0 137px;
 }
+.section-heading {
+  font-family: "Overlock";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+  margin: 0;
+}
+.heading-img {
+  width: 232px;
+}

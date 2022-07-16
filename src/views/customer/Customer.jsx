@@ -6,8 +6,8 @@ const Customer = () => {
         <div className='customer-section'>
             <div className="container">
                 <div className='customer-heading'>
-                    <p>Our Customers</p>
-                    <img src="./img/Underline.png" alt="" />
+                    <p className='section-heading'>Our Customers</p>
+                    <img className='heading-img' src="./img/Underline.png" alt="" />
                 </div>
                 <div className='brands'>
                     <div><img src="./img/brand-1.png" alt="" /></div>

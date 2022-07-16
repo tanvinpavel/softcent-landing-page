@@ -1,0 +1,22 @@
+.ourJob-section{
+    margin: 140px 0;
+}
+.ourJob-heading {
+  padding-bottom: 77px;
+}
+.brands{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ourJob-main{
+    display: flex;
+}
+.col{
+    flex: 1;
+}
+.col-heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

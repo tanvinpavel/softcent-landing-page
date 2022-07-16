@@ -1,0 +1,41 @@
+.dev-tech-section {
+  margin: 140px 0;
+}
+.dev-tech-heading {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.brands {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0;
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+.nav li {
+  list-style: none;
+  cursor: pointer;
+}
+.nav li a {
+  font-family: "Nunito";
+  text-decoration: none;
+  color: #040415;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 46px;
+}
+.nav li hr {
+  height: 4px;
+  background: rgba(45, 91, 251, 10%);
+  border: none;
+}
+.nav li:active hr,
+.nav li:hover hr {
+  background-color: #2d5bff;
+}

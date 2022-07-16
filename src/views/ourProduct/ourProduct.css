@@ -1,0 +1,76 @@
+.our-product-section {
+  margin: 140px 0;
+  background-color: #f9f9f9;
+}
+.our-product-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.our-product-bottom p {
+  width: 582px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+}
+.my-btn {
+  width: 147px;
+  height: 42px;
+  border: none;
+  border-radius: 8px;
+  background: #2d5bff;
+  color: white !important;
+}
+.products {
+  display: flex;
+  height: 504px;
+}
+.p-section-top {
+  background: white;
+  width: 90%;
+  margin-left: auto;
+}
+.p-section-bottom {
+  background: white;
+  width: 90%;
+  margin-right: auto;
+}
+.product-left {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  height: 100%;
+}
+.product-left h1 {
+  font-family: "Overlock";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+}
+.product-left p {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+}
+.product-left button {
+  background: rgba(45, 91, 251, 10%);
+  color: #040415 !important;
+}
+.product-right {
+  width: 760px;
+  height: 100%;
+}
+.product-right img {
+  width: 100%;
+  height: 100%;
+}
+.product-info {
+  width: 80%;
+  margin: 0 auto;
+}

@@ -1,0 +1,68 @@
+#workflow {
+  background-color: #f9f9f9;
+  height: 600.41px;
+  background-image: url("../../../public/img/workflow_BG.png");
+  background-size: cover;
+}
+
+#container {
+  margin: 0 137px;
+  padding-top: 20px;
+}
+#workflowbanner {
+  text-align: center;
+}
+#workflowDiv {
+  display: flex;
+  justify-content: center;
+}
+.wDiv1 {
+  width: 350px;
+  height: 350px;
+
+  margin: 10px;
+  margin: 63px 10px;
+}
+
+.wDiv1 h3 {
+  font-family: "Overlock";
+  color: #040415;
+}
+
+.wDiv2 {
+  /* width: 350px; */
+  width: 400px;
+  height: 475px;
+
+  background-image: url("../../../public/img/home-shape.png");
+  margin: 10px;
+  background-position: top;
+}
+
+.wDiv2 img {
+  width: 370px;
+  height: 343px;
+  border-radius: 7px;
+  margin: 62px 11px;
+}
+
+#definngGoal {
+  background-color: #ffffff;
+  width: 350px;
+  height: 117px;
+  box-shadow: 12px 12px 55px rgba(4, 4, 21, 0.06);
+  border-radius: 6px;
+
+  border-left: 5px solid;
+  border-image: linear-gradient(180deg, #2d5bff, #2d5bff);
+  border-image-slice: 1;
+}
+#definngGoal p {
+  font-family: "Nunito";
+  font-size: 14px;
+  line-height: 21px;
+  color: rgba(4, 4, 21, 0.6);
+}
+.innerContainer {
+  margin: 0 5px;
+}
