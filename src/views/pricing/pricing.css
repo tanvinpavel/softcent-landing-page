@@ -1,26 +1,22 @@
-#priceSection {
+.price-Section {
   width: auto;
-  height: 768px;
-  left: -2.38px;
-  top: 8692px;
-
-  /* position: relative; */
+  min-height: 768px;
 }
 
-#container {
+.container {
   margin: 0 137px;
 
   padding-top: 20px;
 }
 
-#flex-container {
+.flex-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 50px;
 }
 
-#text {
+.text {
   width: 274px;
   height: 92px;
   left: 204.07px;
@@ -29,200 +25,114 @@
   font-weight: 700;
   font-size: 30px;
   line-height: 46px;
-
   color: #ffffff;
   margin-bottom: 50px;
 }
-
-/* #text p{
-        color:#2D5BFF;
-    } */
-
-#btn {
-  width: 197.86px;
-  height: 60.52px;
-  left: 1025.23px;
-  background: #ffffff;
-  border-radius: 7px;
-}
-
-#btn p {
-  color: #2d5bff;
-  font-family: Nunito;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 25px;
-  letter-spacing: 0em;
-  text-align: center;
-}
-
-#address {
+.pricing-card {
   display: flex;
-  /* padding: 50px; */
+  gap: 70px;
+  justify-content: space-between;
 }
 
-.Pricediv1 {
+.card {
+  font-family: "Overlock";
   width: 349.09px;
-
-  margin-top: 25px;
-  margin-right: 62px;
-  text-align: center;
-  text-align: center;
-  background: rgba(48, 136, 255, 0.05);
+  padding: 8px;
   border-radius: 12px;
 }
 
-.Pricediv2 {
-  margin-top: 25px;
-  width: 349.09px;
-  text-align: center;
+.card-gray {
+  background: rgba(48, 136, 255, 0.05);
+  color: #040415;
+}
+.card-blue {
   background: #2d5bff;
-  border-radius: 12px;
+  color: white;
 }
 
-.Pricediv3 {
-  margin-top: 25px;
-  width: 349.09px;
-  margin-left: 62px;
-
-  text-align: center;
-  background: rgba(48, 136, 255, 0.05);
-  border-radius: 12px;
-}
-
-.Pricediv3 p {
-  height: 22px;
-  font-family: "Nunito";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 22px;
-  color: rgba(4, 4, 21, 0.6);
-  text-align: justify;
-}
-
-.Pricediv2 p {
-  height: 22px;
-  font-family: "Nunito";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 22px;
-  color: rgba(4, 4, 21, 0.6);
-  text-align: justify;
-}
-
-.Pricediv1 p {
-  height: 22px;
-  font-family: "Nunito";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 22px;
-  color: rgba(4, 4, 21, 0.6);
-  text-align: center;
-  text-align: justify;
-}
-
-#icon {
+.icon {
   font-size: 26px;
 }
 
-.mainbrand {
+.card-header {
   display: flex;
   justify-content: space-between;
 }
 
-#brndimg img {
+.card-header img {
   margin-top: 5px;
   width: 50px;
   height: 50px;
 }
 
-#underlinetext {
-  font-family: "Overlock";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  margin-bottom: 0px;
-}
-
-#brandtext hr {
+.card-hading hr {
   color: orange;
   height: 5px;
   background-color: orange;
   margin-top: 12px;
 }
 
-#brandtext h2 {
+.card-hading h2 {
   margin-bottom: -19px;
 }
-#amountbtn {
+.card-btn {
   width: 273.22px;
   height: 46px;
+  display: inherit;
   background: #f6a00e;
+  border: none;
   border-radius: 12px;
-  margin: 20px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
 
-#amountbtn p {
-  padding: 10px;
-  text-align: center;
+.pricing-level p i{
+  padding-right: 5px;
 }
 
-#pricing {
+.pricing {
   text-align: center;
+  margin: 50px 0;
 }
-#subsbtn {
+.subs-btn {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
 }
-#monthly {
-  width: 135px;
-  height: 48px;
-  background: rgba(48, 136, 255, 0.16);
+.pricing-btn {
+  padding: 12px 50px;
   border-radius: 7px;
-  margin: 0 29px 0 65px;
+  margin: 0 10px;
 }
-
-#yearly {
-  width: 135px;
-  height: 48px;
-  background: #2d5bff;
-  border-radius: 7px;
-}
-
-#dlg {
-  width: 582.47px;
-  height: 60.09px;
+.pricing-btn p {
+  margin: 0;
   font-family: "Nunito";
-  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+.gray {
+  background: rgba(48, 136, 255, 0.16);
+}
+.blue {
+  background: #3088ff;
+}
+
+.pricing-dialog {
+  width: 582px;
+  font-family: "Nunito";
   font-weight: 400;
   font-size: 18px;
   line-height: 32px;
   color: rgba(4, 4, 21, 0.6);
-  /* margin: 0 248px; */
   margin: 0 auto;
-  margin-bottom: 20px;
+  padding: 30px 0;
 }
 
-#headtext {
-  width: 504px;
-  height: 46px;
-  font-family: "Overlock";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 46px;
-  color: #040415;
-  margin: 0 auto;
-}
-
-.incontainer {
+.inner-container {
   margin: 0 10px;
 }
 
-#sd {
+.sd {
   box-shadow: 10px 10px 22px rgba(45, 91, 255, 0.28);
 }

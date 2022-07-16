@@ -18,7 +18,7 @@ const AboutUs = () => {
                 went in a very good direction. The designers were talented and easy to work with.<i class="fa-solid fa-quote-right quote"></i></p>
 
                 <div id="sofcentceo">
-                    <div><img src="./img/cofounder.png" alt=""/></div>
+                    <div><img src="./img/Ellipse_person.png" alt=""/></div>
                     <div id="coText"><h3 style={{fontFamily:"Nunito"}}>Shuvo Roy</h3>
                     <p style={{margin: "-21px 0px"}}>Softcent Co-Founder</p>
                     </div>
@@ -27,7 +27,7 @@ const AboutUs = () => {
             </div>
             
             <div class="aboutDiv2">
-             <img  src="./img/aboutus.png" alt="" srcset=""/>
+             <img  src="./img/Ellipse_6.png" alt="" srcset=""/>
             </div>
         </div>
         </div>

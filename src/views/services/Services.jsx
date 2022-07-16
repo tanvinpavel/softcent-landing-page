@@ -9,9 +9,9 @@ const Service = () => {
                     <p className="section-heading">What We Do</p>
                     <img className="heading-img" src="./img/Underline.png" alt="" srcset=""/>
                 </div>
-                <div className="address">
-                    <div class="firstdiv">
-                        <div class="mainbrand">
+                <div className="services">
+                    <div class="col">
+                        <div class="">
                             <div className="brndimg"><img src="./img/branding.png" alt="" srcset=""/></div>
                             <div className="brandtext"><h2 style={{fontFamily:"Nunito"}}>Branding</h2></div>
                         </div>
@@ -25,8 +25,8 @@ const Service = () => {
                     
                         
                     </div>
-                    <div class="secoundDiv">
-                        <div class="mainbrand">
+                    <div class="col">
+                        <div class="">
                             <div className="brndimg"><img src="./img/UX.png" alt="" srcset=""/></div>
                             <div className="brandtext"> <h2 style={{fontFamily:"Nunito"}}>Ui Design</h2></div>
                         </div>
@@ -39,8 +39,8 @@ const Service = () => {
                         <p>Website & Mobile App</p>
                         <p>IOS + Android</p>
                     </div>
-                    <div class="thirdDiv">
-                        <div class="mainbrand">
+                    <div class="col">
+                        <div class="">
                             <div className="brndimg"><img src="./img/UX.png" alt="" srcset=""/></div>
                             <div className="brandtext"><h2 style={{fontFamily:"Nunito"}}>Development</h2></div>
                         </div>

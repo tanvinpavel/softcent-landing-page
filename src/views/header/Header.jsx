@@ -14,7 +14,7 @@ const Header = () => {
                     <li><a href="#home">Work</a></li>
                     <li><a href="#home">Premium products</a></li>
                     <li><a href="#home">Blog</a></li>
-                    <li><a className='btn' href="#home">Start a project</a></li>
+                    <li><a className='header-btn' href="#home">Start a project</a></li>
                 </ul>
             </div>
         </header>

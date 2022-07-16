@@ -9,7 +9,6 @@ import OurJob from "./views/ourJob/OurJob";
 import OurProduct from "./views/ourProduct/OurProduct";
 import Portfolio from "./views/portfolio/Portfolio";
 import Pricing from "./views/pricing/Pricing";
-import Service from './views/services/Services';
 import Workflow from "./views/workflow/Workflow";
 
 function App() {
@@ -17,7 +16,7 @@ function App() {
     <div className="App">
       <Home/>
       <Customer/>
-      <Service/>
+      <OurJob/>
       <OurProduct/>
       <Pricing/>
       <AboutUs/>

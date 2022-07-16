@@ -1,22 +1,41 @@
-.ourJob-section{
-    margin: 140px 0;
+.ourJob-section {
+    background-image: url('../../../public/img/services_BG.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-height: 752px;
+    padding: 100px 0;
 }
 .ourJob-heading {
   padding-bottom: 77px;
 }
-.brands{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.brands {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-.ourJob-main{
-    display: flex;
+.ourJob-main {
+  display: flex;
 }
-.col{
-    flex: 1;
+.col {
+  flex: 1;
 }
-.col-heading{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.col-heading {
+  display: flex;
+  align-items: center;
+}
+.col-heading p {
+  margin-left: 8px;
+  font-family: "Overlock";
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32px;
+}
+.ourJob-properties p{
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 32px;
+  color: rgba(4, 4, 21, 0.8);
 }
